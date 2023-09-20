@@ -6,7 +6,7 @@ const Question = ({ node }) => {
         return (
             <div className="question mt-32 sm:mt-60 first:mt-0" id="question">
                 {/* {node.children[0].children[0].value} */}
-                <h1 className="question-text font-bold text-base sm:text-lg">
+                <h1 className="question-text font-bold text-base text-[#3A7D44] sm:text-lg">
                     {children[0].value}
                 </h1>         
             </div>
