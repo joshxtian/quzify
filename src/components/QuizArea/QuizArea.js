@@ -15,7 +15,7 @@ const QuizArea = ({ data }) => {
   }, [data]);
 
   return (
-    <div className="bg-white shadow-2xl rounded-xl w-[800px] h-[550px] overflow-y-scroll p-10 sm:py-10 sm:px-16">
+    <div className="bg-white shadow-2xl rounded-xl w-[800px] h-[550px] overflow-y-scroll px-7 py-7 sm:py-10 sm:px-16">
       <ReactMarkdown
         className="md"
         includeElementIndex

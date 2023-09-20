@@ -13,6 +13,7 @@ const AnswerItem = ({ isActive, showAnswer, text, className, isAnswer }) => {
     },
   );
   const textClassNames = classNames(
+    "text-xs text-left sm:text-lg",
     {
       "text-white": isActive,
       "text-pink-500": !isActive,
